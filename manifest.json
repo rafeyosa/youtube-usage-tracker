@@ -1,0 +1,22 @@
+{
+    "name": "YouTube Usage Tracker",
+    "version": "1.0.0",
+    "description": "Tracks YouTube open count and time spent watching videos.",
+    "manifest_version": 3,
+    "author": "rafeyosa",
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["https://www.youtube.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
