@@ -7,6 +7,7 @@ A Chrome extension that tracks how many times YouTube has been opened and the to
 - Measures total watch time in real-time
 - Stops counting when a video is paused or YouTube is closed
 - Displays tracked data in a popup UI
+
 <img width="293" alt="Screenshot 2025-03-04 at 18 26 40" src="https://github.com/user-attachments/assets/86e6ae27-ff2c-4c77-ae9a-3d841d7aa04e" />
 
 ## Installation
